@@ -29,8 +29,11 @@ public class PetriNet {
     public PetriNet() {
     }
 
+    /**
+     * Creates a petrinet from a <code>File</code> pointing to an .xml file
+     * @param srcxml a <code>File</code> object pointing to an .xml file
+     */
     public PetriNet(File srcxml) {
-
         Document document = null;
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Document.class);          //parsing the xml using jaxb
@@ -89,7 +92,16 @@ public class PetriNet {
         return elements;
     }
 
-    public Connector connectInhibitor(int from, int to, int multiplicity) {
+    /**
+     * Connects the two <code>NetElement</code> objets with an <code>InhibitorArc</code>
+     * if possible
+     * @param from the id of the first element
+     * @param to    the id of the second element
+     * @param multiplicity  the multiplicity of the arc
+     * @throws ConnectionTypeException if the ids are not <code>Place</code> to <code>Transition</code>
+     * @return  reference to the new Connector
+     */
+    public InhibitorArc connectInhibitor(int from, int to, int multiplicity) throws ConnectionTypeException {
         NetElement a = getReference(from);
         NetElement b = getReference(to);
 
@@ -99,11 +111,19 @@ public class PetriNet {
             throw new ConnectionTypeException("Invalid Elements for an Inhibitor Arc");
     }
 
-    public Connector connectInhibitor(Place from, Transition to, int multiplicity) {
+    /**
+     * Connects the two <code>{@link NetElement}</code> objets with an <code>{@link InhibitorArc}</code>
+     * if possible
+     * @param from a <code>{@link Place}</code> object
+     * @param to a <code>{@link Transition}</code> object
+     * @param multiplicity a positive integer
+     * @return  reference to the new <code>{@link InhibitorArc}</code>
+     */
+    public InhibitorArc connectInhibitor(Place from, Transition to, int multiplicity) {
         return new InhibitorArc(from, to, multiplicity);
     }
 
-    public Connector connectReset(int from, int to) {
+    public ResetArc connectReset(int from, int to) {
         NetElement a = getReference(from);
         NetElement b = getReference(to);
 
@@ -114,19 +134,19 @@ public class PetriNet {
 
     }
 
-    public Connector connectReset(Place from, Transition to) {
+    public ResetArc connectReset(Place from, Transition to) {
         return new ResetArc(from, to);
     }
 
-    public Connector connect(NetElement from, NetElement to) {
+    public Arc connect(NetElement from, NetElement to) {
         return connect(from, to, 1);
     }
 
-    public Connector connect(NetElement from, NetElement to, int multiplicity) {
+    public Arc connect(NetElement from, NetElement to, int multiplicity) {
         return new Arc(from, to, multiplicity);
     }
 
-    public Connector connect(int from, int to, int multiplicity) {
+    public Arc connect(int from, int to, int multiplicity) {
         return connect(getReference(from), getReference(to), multiplicity);
     }
 

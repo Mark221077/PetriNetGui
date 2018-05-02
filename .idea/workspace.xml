@@ -7,74 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6622957-cc6b-475b-a3c8-32beb9af622a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/petrinetgui_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Mark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/statistic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bash.exe.stackdump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/petrinetgui_jar/petrinetgui.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generated/Arc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generated/BreakPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generated/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generated/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generated/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generated/Transition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/Arc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/Arrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/ConnectionAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/ConnectionTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/ConnectionWithNullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/InhibitorArc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/InvalidMultiplicityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/InvalidTransitionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/NetElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/PetriNet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/ResetArc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/TokenPainter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinet/Transition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinetgui/AddPlaceButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinetgui/AddTransitionButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinetgui/MouseActionsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinetgui/PetriNetGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/petrinetgui/PetriNetPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generated/Arc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generated/BreakPoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generated/Document.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generated/ObjectFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generated/Place.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generated/Transition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/Arc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/Arrow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/ConnectionAlreadyExistsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/ConnectionTypeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/ConnectionWithNullException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/Connector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/Drawable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/InhibitorArc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/InvalidMultiplicityException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/InvalidTransitionException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/NetElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/PetriNet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/Place.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/ResetArc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/TokenPainter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinet/Transition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinetgui/AddPlaceButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinetgui/AddTransitionButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinetgui/MouseActionsListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinetgui/PetriNetGUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/petrinetgui/PetriNetPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petrinet/Arc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petrinet/Arc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petrinet/Arrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petrinet/Arrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petrinet/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petrinet/Connector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petrinet/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petrinet/Drawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petrinet/InhibitorArc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petrinet/InhibitorArc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petrinet/NetElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petrinet/NetElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petrinet/PetriNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petrinet/PetriNet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,124 +30,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResetArc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ResetArc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-              <folding>
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenPainter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/TokenPainter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Transition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
-              <folding>
-                <element signature="method#getBorderCoors#0;class#Transition#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetriNetGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/PetriNetGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#run#0;class#PetriNetGUI#0" />
-                <element signature="method#actionPerformed#0;class#PetriNetGUI#0" />
-                <element signature="method#loadFile#0;class#PetriNetGUI#0" />
-                <element signature="method#saveFile#0;class#PetriNetGUI#0" />
-                <element signature="method#newNet#0;class#PetriNetGUI#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetriNetPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/PetriNetPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Arrow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Arrow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="119">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddPlaceButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/AddPlaceButton.java">
+      <file leaf-file-name="ConnectionTypeException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ConnectionTypeException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="119">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionWithNullException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ConnectionWithNullException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Connector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1625">
+              <caret line="163" column="63" selection-start-line="163" selection-start-column="63" selection-end-line="163" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+                <element signature="e#2143#2144#0" expanded="true" />
+                <element signature="e#2176#2177#0" expanded="true" />
+                <element signature="e#2201#2202#0" expanded="true" />
+                <element signature="e#4019#4020#0" expanded="true" />
+                <element signature="e#4064#4065#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTransitionButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/AddTransitionButton.java">
+      <file leaf-file-name="Drawable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Drawable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="85">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InhibitorArc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InhibitorArc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MouseActionsListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/MouseActionsListener.java">
+      <file leaf-file-name="InvalidMultiplicityException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InvalidMultiplicityException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2669">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
+            <state relative-caret-position="119">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidTransitionException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InvalidTransitionException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/NetElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="103" column="44" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
+              <folding>
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PetriNet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/PetriNet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="117" column="42" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+              <folding>
+                <element signature="method#getNextId#0;class#PetriNet#0" />
+                <element signature="method#PetriNet#0;class#PetriNet#0" />
+                <element signature="docComment;method#PetriNet#1;class#PetriNet#0" />
+                <element signature="method#PetriNet#1;class#PetriNet#0" />
+                <element signature="method#connectInhibitor#0;class#PetriNet#0" />
+                <element signature="method#connectInhibitor#1;class#PetriNet#0" />
+                <element signature="method#connectReset#0;class#PetriNet#0" />
+                <element signature="method#connect#2;class#PetriNet#0" />
+                <element signature="method#getReference#0;class#PetriNet#0" />
+                <element signature="method#addElement#0;class#PetriNet#0" />
+                <element signature="method#fireTransition#0;class#PetriNet#0" />
+                <element signature="method#deleteElement#0;class#PetriNet#0" />
+                <element signature="method#getConnectors#0;class#PetriNet#0" />
+                <element signature="method#toDocument#0;class#PetriNet#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,13 +209,10 @@
         <option value="$PROJECT_DIR$/src/main/java/petrinetgui/NetClickListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinetgui/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinetgui/Line.java" />
-        <option value="$PROJECT_DIR$/src/main/java/petrinet/Drawable.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/petrinet/Line.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinet/SameTypeConnectionException.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinet/ConnectionTypeException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/petrinet/InhibitorArc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/petrinet/NetElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinet/TokenPainter.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinet/Transition.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinetgui/AddPlaceButton.java" />
@@ -274,14 +225,17 @@
         <option value="$PROJECT_DIR$/src/main/java/generated/ObjectFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/generated/Place.java" />
         <option value="$PROJECT_DIR$/src/main/java/generated/Transition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/petrinet/Connector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/petrinetgui/MouseActionsListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinetgui/PetriNetGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/petrinet/Arc.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinet/Place.java" />
-        <option value="$PROJECT_DIR$/src/main/java/petrinet/PetriNet.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinet/ResetArc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/petrinetgui/MouseActionsListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/petrinet/Arc.java" />
         <option value="$PROJECT_DIR$/src/main/java/petrinet/Arrow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/petrinet/Connector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/petrinet/Drawable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/petrinet/InhibitorArc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/petrinet/NetElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/petrinet/PetriNet.java" />
       </list>
     </option>
   </component>
@@ -303,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -338,10 +291,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="petrinet" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PetriNetGui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PetriNetGui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="petrinetgui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,32 +412,33 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32384825" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.3104113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.32262212" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Statistic" order="8" weight="0.3292683" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Learn" order="2" weight="0.32969153" />
       <window_info id="Structure" order="1" sideWeight="0.5030303" side_tool="true" weight="0.29498714" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32969153" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32384825" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -484,7 +447,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
@@ -494,7 +456,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32384825" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -508,7 +470,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="74" />
+      <option name="time" value="75" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -620,21 +582,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/MotionListener.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="1055" selection-start-line="1055" selection-end-line="1055" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/FloatingElement.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InvalidMultiplicityException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PetriGUI2.iml" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -654,13 +602,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/sk/stuba/fei/oop/generated/Arc.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Line.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Circle.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InvalidTransitionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/UniqueList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/generated/BreakPoint.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -711,69 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Arc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ConnectionAlreadyExistsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ConnectionTypeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ConnectionWithNullException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Connector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Drawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InhibitorArc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/NetElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/PetriNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Place.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
@@ -798,18 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/AddPlaceButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/AddTransitionButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -822,16 +688,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ResetArc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/AddPlaceButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/MouseActionsListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        <state relative-caret-position="391">
+          <caret line="346" lean-forward="true" selection-start-line="346" selection-end-line="346" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Arc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/PetriNetGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="-289">
           <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -844,42 +757,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ResetArc.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/javax/swing/JComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1431">
+          <caret line="1055" column="24" selection-start-line="1055" selection-start-column="24" selection-end-line="1055" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinetgui/PetriNetPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
+        <state relative-caret-position="197">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ConnectionAlreadyExistsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ConnectionTypeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/ConnectionWithNullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Arrow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="119">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InvalidMultiplicityException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InvalidTransitionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/NetElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="103" column="44" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
+          <folding>
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/InhibitorArc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
+          <folding>
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="163" column="63" selection-start-line="163" selection-start-column="63" selection-end-line="163" selection-end-column="63" />
+          <folding>
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#4019#4020#0" expanded="true" />
+            <element signature="e#4064#4065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/petrinet/PetriNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="117" column="42" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+          <folding>
+            <element signature="method#getNextId#0;class#PetriNet#0" />
+            <element signature="method#PetriNet#0;class#PetriNet#0" />
+            <element signature="docComment;method#PetriNet#1;class#PetriNet#0" />
+            <element signature="method#PetriNet#1;class#PetriNet#0" />
+            <element signature="method#connectInhibitor#0;class#PetriNet#0" />
+            <element signature="method#connectInhibitor#1;class#PetriNet#0" />
+            <element signature="method#connectReset#0;class#PetriNet#0" />
+            <element signature="method#connect#2;class#PetriNet#0" />
+            <element signature="method#getReference#0;class#PetriNet#0" />
+            <element signature="method#addElement#0;class#PetriNet#0" />
+            <element signature="method#fireTransition#0;class#PetriNet#0" />
+            <element signature="method#deleteElement#0;class#PetriNet#0" />
+            <element signature="method#getConnectors#0;class#PetriNet#0" />
+            <element signature="method#toDocument#0;class#PetriNet#0" />
+          </folding>
         </state>
       </provider>
     </entry>

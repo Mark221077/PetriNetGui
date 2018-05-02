@@ -12,6 +12,10 @@ import java.awt.*;
  */
 public class Arc extends Connector {
 
+    /**
+     *
+     * @return  the number of tokens to be taken, or given to a place
+     */
 
     @Override
     public int getWeight() {

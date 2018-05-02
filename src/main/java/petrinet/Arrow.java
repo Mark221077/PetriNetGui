@@ -22,9 +22,16 @@ public class Arrow {
         this.from = from;
     }
 
+    /**
+     * Draws an arrow shape pointing between the points
+     * specified in the constructor.
+     * If a text is specified, it will be printed at the center of
+     * the arrow
+     * @param graphics <code>Graphics</code> context in which to paint
+     */
+
     public void draw(Graphics graphics) {
         Graphics2D g = (Graphics2D) graphics;
-
 
         Polygon p = new Polygon();      //a triangle pointing upwards
         //top

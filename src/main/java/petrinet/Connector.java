@@ -27,8 +27,13 @@ public abstract class Connector implements Drawable {
         this.breakPoint = breakPoint;
     }
 
-    protected int multiplicity = 1;
+    protected int multiplicity;
 
+    /**
+     * Sets the multiplicity of the <code>Connector</code>
+     * @param multiplicity a positive integer
+     * @throws InvalidTransitionException if called with a negative or zero argument
+     */
     public void setMultiplicity(int multiplicity) throws InvalidTransitionException {
         if (multiplicity < 1) {
             throw new InvalidMultiplicityException("Multiplicity <1");          //must be positive integer
@@ -40,6 +45,13 @@ public abstract class Connector implements Drawable {
         return multiplicity;
     }
 
+    /**
+     *  Draws an arrow shape representing the connection
+     *  betwwen the elements
+     *
+     * @param g The <code>Graphics</code> context in which to paint
+     * @param text  The text to be shown on the arrow
+     */
     protected void draw(Graphics g, String text) {
         Point from = getEndPoints()[0],        //point on the from element
                 to = getEndPoints()[1];        //point on the to element
@@ -65,6 +77,17 @@ public abstract class Connector implements Drawable {
         return to;
     }
 
+
+    /**
+     *  Connects two <code>NetElements</code> in the petri net
+     * @param from The <code>NetElement</code> before
+     * @param to The <code>NetElement</code> after
+     * @param multiplicity  A positive integer
+     * @throws ConnectionWithNullException  thrown if one of the parameters was null
+     * @throws ConnectionTypeException  thrown if both parameters are of the same class
+     * @throws InvalidMultiplicityException thrown if the multiplicity is not valid
+     * @throws ConnectionAlreadyExistsException thrown if there already is a connection between the <code>NetElements</code>
+     */
     public Connector(NetElement from, NetElement to, int multiplicity) throws ConnectionWithNullException, ConnectionTypeException,
             InvalidMultiplicityException, ConnectionAlreadyExistsException {
         if (from == null || to == null) {
@@ -109,6 +132,11 @@ public abstract class Connector implements Drawable {
         return Objects.hash(from, to);
     }
 
+    /**
+     * Returns the points on its <code>NetElement</code>s.
+     * The points are on the border of the elements
+     * @return  an array of 2 <code>Point</code> objects
+     */
     public Point[] getEndPoints() {         //returns the points on the from and to elements
         Point pFrom, pTo;
         if (breakPoint != null) {            //if there is a breakpoint,
@@ -122,12 +150,19 @@ public abstract class Connector implements Drawable {
         return new Point[]{pFrom, pTo};
     }
 
-
+    /**
+     * safely deletes itself
+     */
     public void delete() {
         from.after.remove(this);
         to.before.remove(this);
     }
 
+    /**
+     * Returns true if the <code>Point</code> p is on this Connector, or close to it
+     * @param p The <code>Point</code> to be checked
+     * @return  true if p is on this connector, false otherwise
+     */
     public boolean pointOnThis(Point p) {       //checks if the Point p is on this line(close to it
         Point pFrom = getEndPoints()[0],
                 pTo = getEndPoints()[1];

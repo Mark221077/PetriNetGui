@@ -47,6 +47,9 @@ public abstract class NetElement implements Drawable {
         this.y = y;
     }
 
+    /*
+    Only one connection is allowed between two Elements in the same direction
+     */
     protected HashSet<Connector> before = new HashSet<>();
 
     protected HashSet<Connector> after = new HashSet<>();
@@ -63,6 +66,10 @@ public abstract class NetElement implements Drawable {
         return new Point(getX(), getY());
     }
 
+    /**
+     * Returns the <code>Point</code> at the centre of the <code>NetElement</code>
+     * @return a <code>Point</code> object
+     */
     public Point getCenterPoint() {
         return new Point(getX() + ELEMENT_SIZE / 2, getY() + ELEMENT_SIZE / 2);
     }
@@ -93,6 +100,9 @@ public abstract class NetElement implements Drawable {
         return String.valueOf(id);
     }
 
+    /**
+     * Deletes itself and all its connectors
+     */
     public void delete() {
         ArrayList<Connector> connectors = new ArrayList<>(before);
         connectors.addAll(after);

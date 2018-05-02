@@ -17,6 +17,12 @@ public class InhibitorArc extends Connector {
         super(from, to, multiplicity);
     }
 
+    /**
+     * An Inhibitor arc is only fireable, if the <code>Place</code> before it has less
+     * tokens than its multiplicity
+     *
+     * @return Zero if the number of tokens is less than its multiplicity, tokens+1 if not
+     */
     @Override
     public int getWeight() {
         Place p = (Place) getFrom();
